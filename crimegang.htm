@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>CrimeGang - DangerZone</title>
+    <link href="cg/style.css" rel="stylesheet" type="text/css" media="all">
+    <!--<meta content="width=device-width; initial-scale=0.25; maximum-scale=1.0;  user-scalable=1;" name="viewport">-->
+    <script src="cg/jquery.js"></script>
+    <link href="cg/shake.css" rel="stylesheet" type="text/css" media="all">
+    <script src="cg/eggs.js"></script>
+</head>
+
+<body>
+
+    <div align="center">
+        <div class="button"><a href="#">T<br>U<br>R<br>N<br> <br> <br> <br></a></div>
+        <div class="button"><a href="#">A<br>R<br>O<br>N<br>D<br><br><br></a></div>
+        <div class="button"><a href="#">C<br>R<br>I<br>M<br>E<br><br></a></div>
+        <div class="button"><a href="#">Z<br>O<br>N<br>E<br>S<br> <br> <br></a></div>
+        <div class="button"><a href="#">C<br>O<br>N<br>T<br>A<br>C<br>T<br></a></div>
+        <br>
+
+        <img src="cg/02.gif" style="margin-top:25px;z-index:2;position:relative;">
+        <div style="margin-top:-140px;">
+            <audio autoplay>
+            <source src="cg/gangtheme.mp3" type="audio/mpeg">
+          </audio>
+            <div id="flip"><img src="cg/MtHood02.png"></div>
+        </div>
+        <h1 id="title2">boss@crimegang.com</h1>
+    </div>
+    <img class="B-left" src="cg/BC-left02.png">
+    <img class="B-right" src="cg/BC-right02.png">
+    <img id="jain1" src="cg/jain-R.png">
+    <img id="jain2" src="cg/jain-L.png">
+    <img class="abs" src="cg/absolution.gif">
+    <script>
+        $(document).ready(function() {
+            $("#flip").click(function() {
+                $("#panel").slideToggle("slow");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
